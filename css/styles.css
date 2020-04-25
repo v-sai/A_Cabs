@@ -1,8 +1,33 @@
 body{
   text-align: center;
 }
+.navbar-brand{
+font-family: 'Ubuntu-Bold', sans-serif;
+  font-weight: 700;
+}
+.nav-item{
+  margin: 5px;
+}
 .carousal-images{
   max-width: 100%;
   max-height: 100%;
   margin: auto;
+}
+.carousal-section{
+  position: relative;
+}
+.booking{
+  position: absolute;
+  bottom: 10%;
+  z-index: 1;
+  
+}
+.booking-data{
+  display: inline-block;
+}
+@media (max-width:990px) {
+  .booking{
+    position: static;
+    display:block;
+  }
 }
